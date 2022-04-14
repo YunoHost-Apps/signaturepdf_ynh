@@ -1,0 +1,49 @@
+{
+    "name": "Signaturepdf",
+    "id": "signaturepdf",
+    "packaging_format": 1,
+    "description": {
+        "en": "Free PDF signing software",
+        "fr": "Logiciel libre de signature de PDF"
+    },
+    "version": "1.0~ynh1",
+    "url": "https://pdf.24eme.fr/signature",
+    "upstream": {
+        "license": "AGPL-3.0-only",
+        "website": "https://pdf.24eme.fr/signature",
+        "demo": "https://pdf.24eme.fr",
+        "code": "https://github.com/24eme/signaturepdf"
+    },
+    "license": "AGPL-3.0-only",
+    "maintainer": {
+        "name": "",
+        "email": ""
+    },
+    "requirements": {
+        "yunohost": ">= 4.3.0"
+    },
+    "multi_instance": true,
+    "services": [
+        "nginx",
+        "php7.4-fpm"
+    ],
+    "arguments": {
+        "install" : [
+            {
+                "name": "domain",
+                "type": "domain"
+            },
+            {
+                "name": "path",
+                "type": "path",
+                "example": "/signaturepdf",
+                "default": "/signaturepdf"
+            },
+            {
+                "name": "is_public",
+                "type": "boolean",
+                "default": true
+            }
+        ]
+    }
+}
