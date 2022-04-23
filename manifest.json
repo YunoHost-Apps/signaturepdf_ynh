@@ -34,12 +34,6 @@
                 "type": "domain"
             },
             {
-                "name": "path",
-                "type": "path",
-                "example": "/signaturepdf",
-                "default": "/signaturepdf"
-            },
-            {
                 "name": "is_public",
                 "type": "boolean",
                 "default": true
