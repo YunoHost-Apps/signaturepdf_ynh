@@ -1,5 +1,5 @@
-SOURCE_URL=https://github.com/24eme/signaturepdf/archive/refs/tags/1.1.0.tar.gz
-SOURCE_SUM=da69610c4cf1a2efc51acf5c86afb987c4e12875b166096fcc57a9166e7e7d88
+SOURCE_URL=https://github.com/24eme/signaturepdf/archive/refs/tags/v1.1.1.tar.gz
+SOURCE_SUM=2c833b7cf517e3f218a766dd03dd25788f878e3e2d89170b586c70264ef0a00e
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=tar.gz
 SOURCE_IN_SUBDIR=true
