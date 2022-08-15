@@ -19,6 +19,7 @@ Logiciel web libre permettant de signer un PDF.
 
 **Shipped version:** 1.1.1~ynh1
 
+
 **Demo:** https://pdf.24eme.fr
 
 ## Screenshots
