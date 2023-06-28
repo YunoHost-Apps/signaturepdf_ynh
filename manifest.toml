@@ -1,0 +1,54 @@
+packaging_format = 2
+
+id = "signaturepdf"
+name = "Signaturepdf"
+description.en = "Free PDF signing software"
+description.fr = "Logiciel libre de signature de PDF"
+
+version = "1.3.1~ynh1"
+
+maintainers = ["eric_G"]
+
+[upstream]
+license = "AGPL-3.0-only"
+website = "https://pdf.24eme.fr/signature"
+demo = "https://pdf.24eme.fr"
+code = "https://github.com/24eme/signaturepdf"
+
+[integration]
+yunohost = ">= 11.1.21"
+architectures = "all"
+multi_instance = true
+ldap = false
+sso = false
+disk = "50M"
+ram.build = "50M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    # this is a generic question - ask strings are automatically handled by Yunohost's core
+    type = "domain"
+    full_domain = true
+
+    [install.init_main_permission]
+    type = "group"
+    default = "visitors"
+
+[resources]
+        [resources.sources.main]
+        url = "https://github.com/24eme/signaturepdf/archive/refs/tags/v1.3.1.tar.gz"
+        sha256 = "c0442d8ffda0a475db8da8672286c371069d4d65f7b684514df94611933cefae"
+        autoupdate.strategy = "latest_github_tag"
+
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.data_dir]
+
+    [resources.permissions]
+    main.url = "/"
+
+    [resources.apt]
+    packages ="php8.2-fpm librsvg2-bin pdftk imagemagick potrace"
