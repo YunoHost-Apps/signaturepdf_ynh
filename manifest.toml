@@ -16,7 +16,7 @@ demo = "https://pdf.24eme.fr"
 code = "https://github.com/24eme/signaturepdf"
 
 [integration]
-yunohost = ">= 11.1.21"
+yunohost = ">= 11.2"
 architectures = "all"
 multi_instance = true
 ldap = false
