@@ -18,7 +18,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 Logiciel web libre permettant de signer un PDF.
 
-**Shipped version:** 1.3.1~ynh3
+**Shipped version:** 1.3.1~ynh4
 
 **Demo:** https://pdf.24eme.fr
 
