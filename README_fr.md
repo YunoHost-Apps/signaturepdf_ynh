@@ -18,7 +18,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 Logiciel web libre permettant de signer un PDF.
 
-**Version incluse :** 1.3.1~ynh3
+**Version incluse :** 1.3.1~ynh4
 
 **Démo :** https://pdf.24eme.fr
 
