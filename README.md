@@ -16,7 +16,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 ## Overview
 
-Logiciel web libre permettant de signer un PDF.
+Free web software for signing a PDF.
 
 **Shipped version:** 1.4.0~ynh4
 
