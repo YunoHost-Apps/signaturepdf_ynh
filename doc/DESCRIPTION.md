@@ -1,1 +1,1 @@
-Logiciel web libre permettant de signer un PDF.
+Free web software for signing a PDF.
