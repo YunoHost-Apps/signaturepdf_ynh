@@ -18,7 +18,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 Free web software for signing a PDF.
 
-**Shipped version:** 1.4.0~ynh4
+**Shipped version:** 1.5.0~ynh1
 
 **Demo:** https://pdf.24eme.fr
 
@@ -30,7 +30,6 @@ Free web software for signing a PDF.
 
 * Official app website: <https://pdf.24eme.fr/signature>
 * Upstream app code repository: <https://github.com/24eme/signaturepdf>
-* YunoHost documentation for this app: <https://yunohost.org/app_signaturepdf>
 * Report a bug: <https://github.com/YunoHost-Apps/signaturepdf_ynh/issues>
 
 ## Developer info
