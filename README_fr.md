@@ -30,6 +30,7 @@ Logiciel web libre permettant de signer un PDF.
 
 * Site officiel de l’app : <https://pdf.24eme.fr/signature>
 * Dépôt de code officiel de l’app : <https://github.com/24eme/signaturepdf>
+* YunoHost Store: <https://apps.yunohost.org/app/signaturepdf>
 * Signaler un bug : <https://github.com/YunoHost-Apps/signaturepdf_ynh/issues>
 
 ## Informations pour les développeurs
