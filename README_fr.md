@@ -18,7 +18,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 Logiciel web libre permettant de signer un PDF.
 
-**Version incluse :** 1.5.0~ynh1
+**Version incluse :** 1.5.1~ynh1
 
 **Démo :** https://pdf.24eme.fr
 
@@ -30,6 +30,7 @@ Logiciel web libre permettant de signer un PDF.
 
 * Site officiel de l’app : <https://pdf.24eme.fr/signature>
 * Dépôt de code officiel de l’app : <https://github.com/24eme/signaturepdf>
+* YunoHost Store: <https://apps.yunohost.org/app/signaturepdf>
 * Signaler un bug : <https://github.com/YunoHost-Apps/signaturepdf_ynh/issues>
 
 ## Informations pour les développeurs
