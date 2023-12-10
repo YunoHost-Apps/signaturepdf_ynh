@@ -18,7 +18,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 Free web software for signing a PDF.
 
-**Shipped version:** 1.5.0~ynh1
+**Shipped version:** 1.5.1~ynh2
 
 **Demo:** https://pdf.24eme.fr
 
