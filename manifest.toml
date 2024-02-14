@@ -7,7 +7,7 @@ description.fr = "Signez, tamponnez, et réorganisez des fichiers PDF"
 
 version = "1.5.1~ynh2"
 
-maintainers = ["eric_G"]
+maintainers = []
 
 [upstream]
 license = "AGPL-3.0-only"
