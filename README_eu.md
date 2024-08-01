@@ -5,7 +5,7 @@ EZ editatu eskuz.
 
 # Signaturepdf YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/signaturepdf.svg)](https://dash.yunohost.org/appci/app/signaturepdf) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/signaturepdf.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/signaturepdf.maintain.svg)
+[![Integrazio maila](https://dash.yunohost.org/integration/signaturepdf.svg)](https://ci-apps.yunohost.org/ci/apps/signaturepdf/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/signaturepdf.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/signaturepdf.maintain.svg)
 
 [![Instalatu Signaturepdf YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=signaturepdf)
 
@@ -18,7 +18,7 @@ EZ editatu eskuz.
 
 Free web software for signing a PDF.
 
-**Paketatutako bertsioa:** 1.5.1~ynh2
+**Paketatutako bertsioa:** 1.6.0~ynh1
 
 **Demoa:** <https://pdf.24eme.fr>
 
