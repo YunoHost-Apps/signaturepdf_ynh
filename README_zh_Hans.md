@@ -5,7 +5,7 @@
 
 # YunoHost 上的 Signaturepdf
 
-[![集成程度](https://dash.yunohost.org/integration/signaturepdf.svg)](https://dash.yunohost.org/appci/app/signaturepdf) ![工作状态](https://ci-apps.yunohost.org/ci/badges/signaturepdf.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/signaturepdf.maintain.svg)
+[![集成程度](https://dash.yunohost.org/integration/signaturepdf.svg)](https://ci-apps.yunohost.org/ci/apps/signaturepdf/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/signaturepdf.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/signaturepdf.maintain.svg)
 
 [![使用 YunoHost 安装 Signaturepdf](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=signaturepdf)
 
@@ -18,7 +18,7 @@
 
 Free web software for signing a PDF.
 
-**分发版本：** 1.5.1~ynh2
+**分发版本：** 1.6.0~ynh1
 
 **演示：** <https://pdf.24eme.fr>
 
