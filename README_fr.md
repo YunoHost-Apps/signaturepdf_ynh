@@ -5,7 +5,7 @@ Il NE doit PAS être modifié à la main.
 
 # Signaturepdf pour YunoHost
 
-[![Niveau d’intégration](https://dash.yunohost.org/integration/signaturepdf.svg)](https://dash.yunohost.org/appci/app/signaturepdf) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/signaturepdf.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/signaturepdf.maintain.svg)
+[![Niveau d’intégration](https://dash.yunohost.org/integration/signaturepdf.svg)](https://ci-apps.yunohost.org/ci/apps/signaturepdf/) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/signaturepdf.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/signaturepdf.maintain.svg)
 
 [![Installer Signaturepdf avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=signaturepdf)
 
@@ -18,7 +18,7 @@ Il NE doit PAS être modifié à la main.
 
 Logiciel web libre permettant de signer un PDF.
 
-**Version incluse :** 1.5.1~ynh2
+**Version incluse :** 1.6.0~ynh1
 
 **Démo :** <https://pdf.24eme.fr>
 
