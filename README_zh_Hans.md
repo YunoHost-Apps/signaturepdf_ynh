@@ -18,7 +18,7 @@
 
 Free web software for signing a PDF.
 
-**分发版本：** 1.6.0~ynh1
+**分发版本：** 1.7.0~ynh1
 
 **演示：** <https://pdf.24eme.fr>
 
