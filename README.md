@@ -18,7 +18,7 @@ It shall NOT be edited by hand.
 
 Free web software for signing a PDF.
 
-**Shipped version:** 1.6.0~ynh1
+**Shipped version:** 1.7.0~ynh1
 
 **Demo:** <https://pdf.24eme.fr>
 
