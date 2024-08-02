@@ -18,7 +18,7 @@ EZ editatu eskuz.
 
 Free web software for signing a PDF.
 
-**Paketatutako bertsioa:** 1.6.0~ynh1
+**Paketatutako bertsioa:** 1.7.0~ynh1
 
 **Demoa:** <https://pdf.24eme.fr>
 

@@ -18,7 +18,7 @@ Ini TIDAK boleh diedit dengan tangan.
 
 Free web software for signing a PDF.
 
-**Versi terkirim:** 1.6.0~ynh1
+**Versi terkirim:** 1.7.0~ynh1
 
 **Demo:** <https://pdf.24eme.fr>
 
