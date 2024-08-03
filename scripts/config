@@ -8,7 +8,7 @@ ynh_abort_if_errors
 ynh_app_config_validate() {
     _ynh_app_config_validate
 
-    if [ "${changed[nss3_nick]}" == "true" ] || [ "${changed[nss3_password]}" == "true" ] ]; then
+    if [ "${changed[nss3_nick]}" == "true" ]; then
         ynh_secure_remove --file="$data_dir/nss"
         ynh_exec_as $app mkdir -p "$data_dir/nss"
         ynh_exec_as $app bash "$install_dir/tools/create_nss_certs.sh" $data_dir/nss/ $nss3_password $nss3_nick https://$domain$path

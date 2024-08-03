@@ -9,8 +9,8 @@ name = "SignaturePDF configuration"
         [main.digital_signature.warning]
         type = "alert"
         style = "info"
-        ask.en = "Changing either the nickname or the password will delete the current certificate and generate a new one"
-        ask.fr = "Changer le surnom ou le mot de passe supprimera le certificat actuel et en génèrera un nouveau"
+        ask.en = "Changing either the nickname will delete the current certificate and generate a new one"
+        ask.fr = "Changer le surnom supprimera le certificat actuel et en génèrera un nouveau"
 
         [main.digital_signature.nss3_nick]
         ask.en = "Choose a nickname for the digital signature"
@@ -18,11 +18,4 @@ name = "SignaturePDF configuration"
         type = "string"
         pattern.regexp = '^[^\.]+$'
         pattern.error = "The nickname cannot contain a dot"
-        bind = ":__INSTALL_DIR__/config/config.ini"
-
-        [main.digital_signature.nss3_password]
-        type = "password"
-        ask.en = "Choose a password for the digital signature"
-        ask.fr = "Choisissez un mot de passe pour la signature numérique"
-        redact = true
         bind = ":__INSTALL_DIR__/config/config.ini"
