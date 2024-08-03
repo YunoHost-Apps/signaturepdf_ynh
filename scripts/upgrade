@@ -10,6 +10,21 @@ source _common.sh
 source /usr/share/yunohost/helpers
 
 #=================================================
+# ENSURE DOWNWARD COMPATIBILITY
+#=================================================
+ynh_script_progression --message="Ensuring downward compatibility..."
+
+if [ -z ${nss3_nick:-} ]; then
+    nss3_nick=""
+    ynh_app_setting_set --app=$app --key=nss3_nick --value=""
+fi
+
+if [ -z ${nss3_password:-} ]; then
+    nss3_password=""
+    ynh_app_setting_set --app=$app --key=nss3_password --value=""
+fi
+
+#=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
 #=================================================
 ynh_script_progression --message="Upgrading source files..." --weight=1
