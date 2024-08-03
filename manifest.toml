@@ -36,6 +36,18 @@ ram.runtime = "50M"
     type = "group"
     default = "visitors"
 
+    [install.nss_nick]
+    type = "string"
+    ask.en = "Choose a nickname for the digital signature"
+    ask.fr = "Choisissez un surnom pour la signature numérique"
+    pattern.regexp = "[^\.]+"
+    pattern.error = "The nickname cannot contain a dot"
+
+    [install.nss_password]
+    type = "password"
+    ask.en = "Choose a password for the digital signature"
+    ask.fr = "Choisissez un mot de passe pour la signature numérique"
+
 [resources]
         [resources.sources.main]
         url = "https://github.com/24eme/signaturepdf/archive/refs/tags/v1.7.0.tar.gz"
@@ -47,6 +59,7 @@ ram.runtime = "50M"
     [resources.install_dir]
 
     [resources.data_dir]
+    subdirs = ["nss"]
 
     [resources.permissions]
     main.url = "/"

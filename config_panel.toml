@@ -1,0 +1,22 @@
+version = "1.0"
+
+[main]
+name = "SignaturePDF configuration"
+
+    [main.digital_signature]
+    name = "Set up digital signature"
+
+        [main.digital_signature.nss3_nick]
+        ask.en = "Choose a nickname for the digital signature"
+        ask.fr = "Choisissez un surnom pour la signature numérique"
+        type = "string"
+        pattern.regexp = '[^\.]+'
+        pattern.error = "The nickname cannot contain a dot"
+        bind = ":__INSTALL_DIR__/config/config.ini"
+
+        [main.digital_signature.nss3_password]
+        type = "password"
+        ask.en = "Choose a password for the digital signature"
+        ask.fr = "Choisissez un mot de passe pour la signature numérique"
+        redact = true
+        bind = ":__INSTALL_DIR__/config/config.ini"
