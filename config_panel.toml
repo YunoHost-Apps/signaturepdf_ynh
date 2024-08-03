@@ -9,7 +9,7 @@ name = "SignaturePDF configuration"
         [main.digital_signature.warning]
         type = "alert"
         style = "info"
-        ask.en = "Changing either the nickname will delete the current certificate and generate a new one"
+        ask.en = "Changing the nickname will delete the current certificate and generate a new one"
         ask.fr = "Changer le surnom supprimera le certificat actuel et en génèrera un nouveau"
 
         [main.digital_signature.nss3_nick]
