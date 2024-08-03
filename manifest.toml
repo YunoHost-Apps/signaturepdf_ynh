@@ -42,6 +42,7 @@ ram.runtime = "50M"
     ask.fr = "Choisissez un surnom pour la signature numérique"
     pattern.regexp = '[^\.]+'
     pattern.error = "The nickname cannot contain a dot"
+    default = "SignaturePDF"
 
 [resources]
         [resources.sources.main]
