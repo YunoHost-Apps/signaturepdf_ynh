@@ -40,7 +40,7 @@ ram.runtime = "50M"
     type = "string"
     ask.en = "Choose a nickname for the digital signature"
     ask.fr = "Choisissez un surnom pour la signature numérique"
-    pattern.regexp = "[^\.]+"
+    pattern.regexp = '[^\.]+'
     pattern.error = "The nickname cannot contain a dot"
 
     [install.nss_password]
