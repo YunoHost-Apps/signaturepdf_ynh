@@ -36,6 +36,9 @@ ynh_add_fpm_config
 #=================================================
 ynh_script_progression --message="Adding a configuration file..." --weight=1
 
+nss3_password=$(ynh_string_random)
+ynh_app_setting_set --app=$app --key=nss3_password --value=$nss3_password
+
 ynh_add_config --template="config.ini" --destination="$install_dir/config/config.ini"
 
 chmod 400 "$install_dir/config/config.ini"
