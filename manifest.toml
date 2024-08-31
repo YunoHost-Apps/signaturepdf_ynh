@@ -16,7 +16,7 @@ demo = "https://pdf.24eme.fr"
 code = "https://github.com/24eme/signaturepdf"
 
 [integration]
-yunohost = ">= 11.2.18"
+yunohost = ">= 11.2.29"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
@@ -54,4 +54,4 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages ="php8.2-fpm, librsvg2-bin, pdftk, imagemagick, potrace"
+    packages ="php8.3-fpm, librsvg2-bin, pdftk, imagemagick, potrace"
