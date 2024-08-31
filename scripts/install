@@ -26,6 +26,9 @@ ynh_config_add_phpfpm
 #=================================================
 ynh_script_progression "Adding $app's configuration..."
 
+nss3_password=$(ynh_string_random)
+ynh_app_setting_set --app=$app --key=nss3_password --value=$nss3_password
+
 ynh_config_add --template="config.ini" --destination="$install_dir/config/config.ini"
 
 #=================================================

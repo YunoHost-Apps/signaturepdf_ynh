@@ -6,6 +6,27 @@ source /usr/share/yunohost/helpers
 ynh_app_setting_set_default --key=php_upload_max_filesize --value=256M
 
 #=================================================
+# ENSURE DOWNWARD COMPATIBILITY
+#=================================================
+ynh_script_progression --message="Ensuring downward compatibility..."
+
+if ynh_compare_current_package_version --comparison lt --version 1.7.0~ynh2
+then
+    nss3_nick="SignaturePDF"
+    ynh_app_setting_set --app=$app --key=nss3_nick --value=$nss3_nick
+    nss3_password=$(ynh_string_random)
+    ynh_app_setting_set --app=$app --key=nss3_password --value=$nss3_password
+
+    echo "
+# Digital signature configuration
+NSS3_DIRECTORY=$data_dir/nss/
+NSS3_PASSWORD=$nss3_password
+NSS3_NICK=$nss3_nick
+" >> $install_dir/config/config.ini
+ynh_store_file_checksum --file="$install_dir/config/config.ini"
+fi
+
+#=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
 #=================================================
 ynh_script_progression "Upgrading source files..."
