@@ -18,7 +18,7 @@ No se debe editar a mano.
 
 Free web software for signing a PDF.
 
-**Versión actual:** 1.7.0~ynh2
+**Versión actual:** 1.7.1~ynh1
 
 **Demo:** <https://pdf.24eme.fr>
 
@@ -35,7 +35,7 @@ Free web software for signing a PDF.
 
 ## Información para desarrolladores
 
-Por favor enviar sus correcciones a la [`branch testing`](https://github.com/YunoHost-Apps/signaturepdf_ynh/tree/testing
+Por favor enviar sus correcciones a la [rama `testing`](https://github.com/YunoHost-Apps/signaturepdf_ynh/tree/testing).
 
 Para probar la rama `testing`, sigue asÍ:
 
