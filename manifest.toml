@@ -5,7 +5,7 @@ name = "Signaturepdf"
 description.en = "Sign, stamp, and reorganize PDF files"
 description.fr = "Signez, tamponnez, et réorganisez des fichiers PDF"
 
-version = "1.7.0~ynh1"
+version = "1.7.1~ynh1"
 
 maintainers = []
 
@@ -16,7 +16,8 @@ demo = "https://pdf.24eme.fr"
 code = "https://github.com/24eme/signaturepdf"
 
 [integration]
-yunohost = ">= 11.2"
+yunohost = ">= 11.2.29"
+helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
 
@@ -36,20 +37,30 @@ ram.runtime = "50M"
     type = "group"
     default = "visitors"
 
+    [install.nss3_nick]
+    type = "string"
+    ask.en = "Choose a nickname for the digital signature"
+    ask.fr = "Choisissez un surnom pour la signature numérique"
+    pattern.regexp = '[^\.]+'
+    pattern.error = "The nickname cannot contain a dot"
+    default = "SignaturePDF"
+
 [resources]
         [resources.sources.main]
-        url = "https://github.com/24eme/signaturepdf/archive/refs/tags/v1.7.0.tar.gz"
-        sha256 = "480e16163cda2b479a7fabfaf9dd6a6d7fe2ba762f82b27ca140725d658a848a"
+        url = "https://github.com/24eme/signaturepdf/archive/refs/tags/v1.7.1.tar.gz"
+        sha256 = "08f0bd00f0a2ce89fd6df1f38b4b4d3a15ad327b167f938567db882ea6777f76"
         autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
 
     [resources.install_dir]
+    group = "www-data:r-x"
 
     [resources.data_dir]
+    subdirs = ["nss"]
 
     [resources.permissions]
     main.url = "/"
 
     [resources.apt]
-    packages ="php8.2-fpm, librsvg2-bin, pdftk, imagemagick, potrace"
+    packages ="php8.3-fpm, librsvg2-bin, pdftk, imagemagick, potrace, poppler-utils, libnss3-tools"
