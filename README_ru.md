@@ -5,7 +5,9 @@
 
 # Signaturepdf для YunoHost
 
-[![Уровень интеграции](https://dash.yunohost.org/integration/signaturepdf.svg)](https://ci-apps.yunohost.org/ci/apps/signaturepdf/) ![Состояние работы](https://ci-apps.yunohost.org/ci/badges/signaturepdf.status.svg) ![Состояние сопровождения](https://ci-apps.yunohost.org/ci/badges/signaturepdf.maintain.svg)
+[![Уровень интеграции](https://apps.yunohost.org/badge/integration/signaturepdf)](https://ci-apps.yunohost.org/ci/apps/signaturepdf/)
+![Состояние работы](https://apps.yunohost.org/badge/state/signaturepdf)
+![Состояние сопровождения](https://apps.yunohost.org/badge/maintained/signaturepdf)
 
 [![Установите Signaturepdf с YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=signaturepdf)
 
@@ -18,7 +20,7 @@
 
 Free web software for signing a PDF.
 
-**Поставляемая версия:** 1.7.1~ynh1
+**Поставляемая версия:** 1.7.2~ynh1
 
 **Демо-версия:** <https://pdf.24eme.fr>
 
