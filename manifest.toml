@@ -36,8 +36,8 @@ ram.runtime = "50M"
 
 [resources]
         [resources.sources.main]
-        url = "https://github.com/24eme/signaturepdf/archive/refs/tags/v1.7.0.tar.gz"
-        sha256 = "480e16163cda2b479a7fabfaf9dd6a6d7fe2ba762f82b27ca140725d658a848a"
+        url = "https://github.com/24eme/signaturepdf/archive/refs/tags/v1.7.2.tar.gz"
+        sha256 = "6aab6528d22daf91ed43ff412b29734520255ba393374b41235dc2363236748b"
         autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
