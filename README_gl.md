@@ -5,7 +5,9 @@ NON debe editarse manualmente.
 
 # Signaturepdf para YunoHost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/signaturepdf.svg)](https://ci-apps.yunohost.org/ci/apps/signaturepdf/) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/signaturepdf.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/signaturepdf.maintain.svg)
+[![Nivel de integración](https://apps.yunohost.org/badge/integration/signaturepdf)](https://ci-apps.yunohost.org/ci/apps/signaturepdf/)
+![Estado de funcionamento](https://apps.yunohost.org/badge/state/signaturepdf)
+![Estado de mantemento](https://apps.yunohost.org/badge/maintained/signaturepdf)
 
 [![Instalar Signaturepdf con YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=signaturepdf)
 

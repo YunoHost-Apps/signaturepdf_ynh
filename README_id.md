@@ -5,7 +5,9 @@ Ini TIDAK boleh diedit dengan tangan.
 
 # Signaturepdf untuk YunoHost
 
-[![Tingkat integrasi](https://dash.yunohost.org/integration/signaturepdf.svg)](https://ci-apps.yunohost.org/ci/apps/signaturepdf/) ![Status kerja](https://ci-apps.yunohost.org/ci/badges/signaturepdf.status.svg) ![Status pemeliharaan](https://ci-apps.yunohost.org/ci/badges/signaturepdf.maintain.svg)
+[![Tingkat integrasi](https://apps.yunohost.org/badge/integration/signaturepdf)](https://ci-apps.yunohost.org/ci/apps/signaturepdf/)
+![Status kerja](https://apps.yunohost.org/badge/state/signaturepdf)
+![Status pemeliharaan](https://apps.yunohost.org/badge/maintained/signaturepdf)
 
 [![Pasang Signaturepdf dengan YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=signaturepdf)
 

@@ -5,7 +5,9 @@ EZ editatu eskuz.
 
 # Signaturepdf YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/signaturepdf.svg)](https://ci-apps.yunohost.org/ci/apps/signaturepdf/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/signaturepdf.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/signaturepdf.maintain.svg)
+[![Integrazio maila](https://apps.yunohost.org/badge/integration/signaturepdf)](https://ci-apps.yunohost.org/ci/apps/signaturepdf/)
+![Funtzionamendu egoera](https://apps.yunohost.org/badge/state/signaturepdf)
+![Mantentze egoera](https://apps.yunohost.org/badge/maintained/signaturepdf)
 
 [![Instalatu Signaturepdf YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=signaturepdf)
 
