@@ -23,7 +23,7 @@ NSS3_DIRECTORY=$data_dir/nss/
 NSS3_PASSWORD=$nss3_password
 NSS3_NICK=$nss3_nick
 " >> $install_dir/config/config.ini
-ynh_store_file_checksum --file="$install_dir/config/config.ini"
+ynh_store_file_checksum "$install_dir/config/config.ini"
 fi
 
 #=================================================
