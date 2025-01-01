@@ -5,7 +5,7 @@ name = "Signaturepdf"
 description.en = "Sign, stamp, and reorganize PDF files"
 description.fr = "Signez, tamponnez, et réorganisez des fichiers PDF"
 
-version = "1.7.1~ynh1"
+version = "1.7.2~ynh1"
 
 maintainers = []
 
@@ -47,8 +47,8 @@ ram.runtime = "50M"
 
 [resources]
         [resources.sources.main]
-        url = "https://github.com/24eme/signaturepdf/archive/refs/tags/v1.7.1.tar.gz"
-        sha256 = "08f0bd00f0a2ce89fd6df1f38b4b4d3a15ad327b167f938567db882ea6777f76"
+        url = "https://github.com/24eme/signaturepdf/archive/refs/tags/v1.7.2.tar.gz"
+        sha256 = "6aab6528d22daf91ed43ff412b29734520255ba393374b41235dc2363236748b"
         autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]

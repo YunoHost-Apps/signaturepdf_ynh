@@ -5,7 +5,9 @@ Hij mag NIET handmatig aangepast worden.
 
 # Signaturepdf voor Yunohost
 
-[![Integratieniveau](https://dash.yunohost.org/integration/signaturepdf.svg)](https://ci-apps.yunohost.org/ci/apps/signaturepdf/) ![Mate van functioneren](https://ci-apps.yunohost.org/ci/badges/signaturepdf.status.svg) ![Onderhoudsstatus](https://ci-apps.yunohost.org/ci/badges/signaturepdf.maintain.svg)
+[![Integratieniveau](https://apps.yunohost.org/badge/integration/signaturepdf)](https://ci-apps.yunohost.org/ci/apps/signaturepdf/)
+![Mate van functioneren](https://apps.yunohost.org/badge/state/signaturepdf)
+![Onderhoudsstatus](https://apps.yunohost.org/badge/maintained/signaturepdf)
 
 [![Signaturepdf met Yunohost installeren](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=signaturepdf)
 
@@ -18,7 +20,7 @@ Hij mag NIET handmatig aangepast worden.
 
 Free web software for signing a PDF.
 
-**Geleverde versie:** 1.7.1~ynh1
+**Geleverde versie:** 1.7.2~ynh1
 
 **Demo:** <https://pdf.24eme.fr>
 
