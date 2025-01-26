@@ -1,38 +1,51 @@
 #!/bin/bash
 
-#=================================================
-# GENERIC START
-#=================================================
-# IMPORT GENERIC HELPERS
-#=================================================
-
 source _common.sh
 source /usr/share/yunohost/helpers
+
+ynh_app_setting_set_default --key=php_upload_max_filesize --value=256M
+ynh_app_setting_set_default --key=php_memory_limit --value=256M
+ynh_app_setting_set_default --key=php_post_max_filesize --value=256M
+
+#=================================================
+# ENSURE DOWNWARD COMPATIBILITY
+#=================================================
+ynh_script_progression --message="Ensuring downward compatibility..."
+
+if ynh_app_upstream_version --comparison lt --version 1.7.0~ynh2
+then
+    nss3_nick="SignaturePDF"
+    ynh_app_setting_set --app=$app --key=nss3_nick --value=$nss3_nick
+    nss3_password=$(ynh_string_random)
+    ynh_app_setting_set --app=$app --key=nss3_password --value=$nss3_password
+
+    echo "
+# Digital signature configuration
+NSS3_DIRECTORY=$data_dir/nss/
+NSS3_PASSWORD=$nss3_password
+NSS3_NICK=$nss3_nick
+" >> $install_dir/config/config.ini
+ynh_store_file_checksum "$install_dir/config/config.ini"
+fi
 
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
 #=================================================
-ynh_script_progression --message="Upgrading source files..." --weight=1
+ynh_script_progression "Upgrading source files..."
 
-	# Download, check integrity, uncompress and patch the source from app.src
-ynh_setup_source --dest_dir="$install_dir" --keep="config/config.ini"
-
-chmod -R o-rwx "$install_dir"
-chown -R $app:www-data "$install_dir"
+ynh_setup_source --dest_dir="$install_dir" --keep="config/config.ini" --full_replace
 
 #=================================================
 # NGINX CONFIGURATION
 #=================================================
-ynh_script_progression --message="Upgrading system configurations related to $app..." --weight=1
+ynh_script_progression "Upgrading system configurations related to $app..."
 
-# Create a dedicated NGINX config
-ynh_add_nginx_config
+ynh_config_add_nginx
 
-# Create a dedicated PHP-FPM config
-ynh_add_fpm_config
+ynh_config_add_phpfpm
 
 #=================================================
 # END OF SCRIPT
 #=================================================
 
-ynh_script_progression --message="Upgrade of $app completed" --last
+ynh_script_progression "Upgrade of $app completed"

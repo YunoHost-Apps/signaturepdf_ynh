@@ -20,7 +20,7 @@ Hij mag NIET handmatig aangepast worden.
 
 Free web software for signing a PDF.
 
-**Geleverde versie:** 1.7.0~ynh2
+**Geleverde versie:** 1.7.2~ynh1
 
 **Demo:** <https://pdf.24eme.fr>
 
