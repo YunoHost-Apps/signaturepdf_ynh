@@ -20,7 +20,7 @@
 
 Free web software for signing a PDF.
 
-**Поставляемая версия:** 1.7.2~ynh1
+**Поставляемая версия:** 1.7.2~ynh2
 
 **Демо-версия:** <https://pdf.24eme.fr>
 

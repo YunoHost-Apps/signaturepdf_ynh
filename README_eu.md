@@ -20,7 +20,7 @@ EZ editatu eskuz.
 
 Free web software for signing a PDF.
 
-**Paketatutako bertsioa:** 1.7.2~ynh1
+**Paketatutako bertsioa:** 1.7.2~ynh2
 
 **Demoa:** <https://pdf.24eme.fr>
 
