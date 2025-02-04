@@ -5,7 +5,7 @@ name = "Signaturepdf"
 description.en = "Sign (alone or with others), stamp, reorganize, edit metadata and compress PDF files"
 description.fr = "Signez (seul ou à plusieurs), tamponnez, réorganisez, éditez les métadatas et compresser des fichiers PDF"
 
-version = "1.7.2~ynh1"
+version = "1.7.2~ynh2"
 
 maintainers = []
 
