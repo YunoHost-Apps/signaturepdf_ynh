@@ -20,7 +20,7 @@ Ini TIDAK boleh diedit dengan tangan.
 
 Free web software for signing a PDF.
 
-**Versi terkirim:** 1.7.2~ynh1
+**Versi terkirim:** 1.7.2~ynh2
 
 **Demo:** <https://pdf.24eme.fr>
 
