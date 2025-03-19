@@ -20,7 +20,8 @@ Il NE doit PAS être modifié à la main.
 
 Logiciel web libre permettant de signer un PDF.
 
-**Version incluse :** 1.7.2~ynh2
+
+**Version incluse :** 1.7.4~ynh1
 
 **Démo :** <https://pdf.24eme.fr>
 

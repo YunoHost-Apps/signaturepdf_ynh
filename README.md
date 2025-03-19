@@ -20,7 +20,8 @@ It shall NOT be edited by hand.
 
 Free web software for signing a PDF.
 
-**Shipped version:** 1.7.2~ynh2
+
+**Shipped version:** 1.7.4~ynh1
 
 **Demo:** <https://pdf.24eme.fr>
 
