@@ -1,4 +1,4 @@
-Signature PDF est un Logiciel libre de signature et manipulation de PDF.
+Signature PDF est un logiciel libre de signature et manipulation de PDF.
 
 Il permet de : 
   - Signer en ligne, seul ou à plusieurs à l'aide d'un lien partagé
@@ -11,3 +11,4 @@ Il permet de :
   - Ajouter un filigrane
   - Éditer les métadonnées
   - Compresser
+
