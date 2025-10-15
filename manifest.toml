@@ -7,7 +7,7 @@ name = "Signaturepdf"
 description.en = "Sign (alone or with others), stamp, reorganize, edit metadata and compress PDF files"
 description.fr = "Signez (seul ou à plusieurs), tamponnez, réorganisez, éditez les métadatas et compresser des fichiers PDF"
 
-version = "1.9.0~ynh1"
+version = "1.9.1~ynh1"
 
 maintainers = []
 
@@ -18,13 +18,12 @@ demo = "https://pdf.24eme.fr"
 code = "https://github.com/24eme/signaturepdf"
 
 [integration]
-yunohost = ">= 12.0.9"
+yunohost = ">= 12.1.17"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
 
 ldap = false
-
 sso = false
 
 disk = "50M"
@@ -49,8 +48,8 @@ ram.runtime = "50M"
 
 [resources]
     [resources.sources.main]
-    url = "https://github.com/24eme/signaturepdf/archive/refs/tags/v1.9.0.tar.gz"
-    sha256 = "00c9fa7452f0462fbfb9aebd54b8534fa6d832c443ab13166455f6a141fd57c4"
+    url = "https://github.com/24eme/signaturepdf/archive/refs/tags/v1.9.1.tar.gz"
+    sha256 = "a60b8fefaaf93fe519f5bc9ab11aacf3cb92b28d79352be1457c9a2f0a1ed77f"
     autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
