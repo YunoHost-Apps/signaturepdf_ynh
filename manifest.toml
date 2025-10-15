@@ -64,4 +64,4 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "php8.4-fpm, librsvg2-bin, pdftk, imagemagick, potrace, poppler-utils, libnss3-tools"
+    packages = "php8.3-fpm, librsvg2-bin, pdftk, imagemagick, potrace, poppler-utils, libnss3-tools"
