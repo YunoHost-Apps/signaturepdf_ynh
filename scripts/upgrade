@@ -31,6 +31,11 @@ NSS3_NICK=$nss3_nick
 ynh_store_file_checksum "$install_dir/config/config.ini"
 fi
 
+if ynh_app_upstream_version --comparison lt --version 1.9.2~ynh2
+then
+    ynh_exec_as_app bash $install_dir/tools/create_nss_certs.sh "$data_dir/nss" "$nss3_password" "$nss3_nick" "https://$domain$path"
+fi
+
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
 #=================================================
