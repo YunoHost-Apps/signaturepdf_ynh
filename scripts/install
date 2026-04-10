@@ -31,6 +31,13 @@ ynh_script_progression "Adding $app's configuration files..."
 
 ynh_config_add --template="config.ini" --destination="$install_dir/config/config.ini"
 
+# Backup old cert data in case of reinstallation
+if [ -f $data_dir/nss/cert9.db ]; then
+    mv $data_dir/nss "$data_dir/nss.$(date '+%y%m%dT%H%M').bak"
+    mkdir "$data_dir/nss"
+    chown $app:$app "$data_dir/nss"
+fi
+
 ynh_exec_as_app bash $install_dir/tools/create_nss_certs.sh "$data_dir/nss" "$nss3_password" "$nss3_nick" "https://$domain$path"
 
 #=================================================
