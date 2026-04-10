@@ -7,7 +7,7 @@ name = "Signaturepdf"
 description.en = "Sign (alone or with others), stamp, reorganize, edit metadata and compress PDF files"
 description.fr = "Signez (seul ou à plusieurs), tamponnez, réorganisez, éditez les métadatas et compresser des fichiers PDF"
 
-version = "1.9.2~ynh2"
+version = "1.9.2~ynh3"
 
 maintainers = []
 
@@ -64,4 +64,4 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "php8.3-fpm, php8.3-gd, php8.3-mbstring, librsvg2-bin, pdftk, imagemagick, potrace, poppler-utils, libnss3-tools"
+    packages = "php8.4-gd, php8.4-mbstring, librsvg2-bin, pdftk, imagemagick, potrace, poppler-utils, libnss3-tools"
